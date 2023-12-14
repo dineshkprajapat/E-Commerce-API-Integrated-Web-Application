@@ -1,0 +1,81 @@
+.heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    color:rgb(214, 47, 172);
+    border-bottom: #000;
+    margin-bottom: 25px;
+  
+    }
+   
+    .imw {
+    height: 70%;
+    width: 100%;
+    overflow: visible;
+   
+   
+    
+    }
+    .product {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .overlay {
+    position: absolute;
+    top: 9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    }
+    .ccc:hover .overlay {
+    opacity: 0.7;
+    }
+    .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    .cc1 {
+    width: 82%;
+    background:orange;
+    color: #000;
+    padding: 4px 8px;
+    border: 1px solid #000;
+    height: 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    }
+    .ccc{
+        height: 300px;
+        width: auto;
+        overflow:inherit;
+        margin-bottom: 12px;
+    }
+    @media only screen and (max-width: 553px) {
+    .card {
+    margin-top: 25px;
+    }
+    }
+    .card {
+    border: 1px solid;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 30px;
+    }

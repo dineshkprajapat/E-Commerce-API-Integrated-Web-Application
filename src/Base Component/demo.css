@@ -1,0 +1,39 @@
+.navbar{
+    height: 80px;
+}
+.navbarbrand{
+    font-size: 25px;
+}
+.navv{
+    margin-left: 15%;
+    padding: 0px 55px;
+    border-radius: 22px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.navitem{
+    padding: 12px;
+    margin: 3px;
+    text-align: center;
+}
+.link {
+    padding: 10px 70px;
+    border-radius: 12px;
+    font-size: 25px;
+}
+.linkk {
+    font-size: 25px;
+    padding: 8px 50px;
+    border-radius: 12px;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+.dropmenu{
+    background-color: #3498db;
+}
+.navbartext{
+    font-size:25px ;
+    text-decoration: none;
+    
+}

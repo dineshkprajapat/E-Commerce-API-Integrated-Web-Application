@@ -1,0 +1,6 @@
+.tablee thead tr th {
+    border: 2px solid black;
+}
+tbody tr td {
+    border: 2px solid black;
+}
